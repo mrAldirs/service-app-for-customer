@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuBeranda"
+        android:icon="@drawable/home"
+        android:title="Beranda"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuRiwayat"
+        android:icon="@drawable/riwayat"
+        android:title="Riwayat"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menuBayar"
+        android:icon="@drawable/qr_code"
+        android:title="Bayar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuNotif"
+        android:icon="@drawable/notifikasi"
+        android:title="Notifikasi"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menuAkun"
+        android:icon="@drawable/akun"
+        android:title="Akun"
+        app:showAsAction="ifRoom" />
+
+</menu>

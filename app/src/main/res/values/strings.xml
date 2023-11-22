@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Rukin Elektronik Mobile</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="lay_servis">Jasa Servis Barang Elektronik seperti Handphone, Laptop, Televisi hingga AC.</string>
+    <string name="lay_order">Membeli barang sesuka hati dengan order menggunakan layanan Order Barang.</string>
+    <string name="lay_beli">Beli barang sesuai kebutuhan dengan memanfaatkan layanan Pembelian Barang Elektronik.</string>
+    <string name="lay_jual">Menyediakan layanan untuk para pelanggan yang ingin menjual Barang Elektroniknya.</string>
+    <string name="creator">Powered by Aldi DJimin</string>
+    <string name="privacy_policy_text">Kami menghargai privasi Anda sebagai pengguna aplikasi kami. Dokumen kebijakan privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi pribadi Anda saat menggunakan aplikasi servis dan jual beli Rukin Servis Elektronik. Kami sangat berkomitmen untuk menjaga kerahasiaan dan keamanan informasi Anda, dan kami akan menggunakan informasi pribadi Anda hanya sejauh yang diizinkan oleh hukum yang berlaku dan sesuai dengan kebijakan privasi ini.
+\n\n\n
+Informasi yang Kami Kumpulkan:
+\n\n
+1. Informasi Pribadi: Saat Anda menggunakan aplikasi kami, kami dapat mengumpulkan informasi pribadi seperti nama, alamat email, nomor telepon, alamat, dan informasi identifikasi lainnya yang Anda berikan saat mendaftar atau menggunakan layanan kami.
+\n\n
+2. Informasi Transaksi: Kami dapat mengumpulkan informasi terkait transaksi yang Anda lakukan melalui aplikasi kami, termasuk informasi pembayaran dan rincian produk atau layanan yang Anda beli atau jual.
+\n\n
+3. Meningkatkan Layanan: Kami menggunakan informasi yang kami kumpulkan untuk mengoperasikan, mengelola, dan meningkatkan aplikasi dan layanan kami. Informasi ini membantu kami menyediakan fitur-fitur yang relevan dengan kebutuhan Anda dan mempersonalisasi pengalaman Anda dengan aplikasi kami.
+\n\n
+4. Transaksi: Kami menggunakan informasi transaksi untuk memproses pembayaran, memfasilitasi jual beli antara pengguna, mengelola pesanan, dan menyediakan layanan pelanggan terkait.
+\n\n
+5. Keamanan: Kami menggunakan informasi yang kami kumpulkan untuk menjaga keamanan dan integritas aplikasi kami, serta melindungi dari penyalahgunaan, penipuan, atau tindakan yang tidak sah lainnya.
+\n\n
+6. Komunikasi: Kami dapat menggunakan informasi kontak yang Anda berikan untuk mengirimkan pembaruan, pemberitahuan, dan komunikasi terkait layanan kami. Kami juga dapat mengirimkan informasi pemasaran atau promosi terkait layanan kami, namun Anda dapat memilih untuk tidak menerima komunikasi semacam itu.
+\n\n\n
+Pemindahan Informasi:
+Kami dapat memindahkan informasi pribadi Anda kepada pihak ketiga yang terkait dengan operasi, pengelolaan, dan penyediaan layanan aplikasi kami, seperti penyedia layanan pembayaran, penyedia hosting, atau penyedia layanan lain yang membantu kami dalam menjalankan bisnis kami. Namun, kami akan memastikan bahwa pihak ketiga tersebut memiliki kebijakan privasi yang sesuai dan memperlakukan informasi Anda dengan keamanan yang memadai.
+\n\n
+Keamanan Data:
+Kami mengambil langkah-langkah yang wajar untuk melindungi informasi pribadi Anda dari akses yang tidak sah, penggunaan yang tidak sah, perubahan, atau pengungkapan. Kami menerapkan tindakan keamanan fisik, teknis, dan administratif yang sesuai untuk melindungi informasi Anda.
+\n\n
+Perubahan Kebijakan Privasi:
+Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu untuk mencerminkan perubahan dalam praktik kami atau persyaratan hukum yang berlaku. Setiap perubahan akan diberitahukan kepada Anda melalui pembaruan aplikasi atau komunikasi lain yang sesuai. Dengan melanjutkan penggunaan aplikasi kami setelah perubahan kebijakan ini diumumkan, Anda menyetujui kebijakan privasi yang diperbarui.
+\n\n
+Kontak:
+Jika Anda memiliki pertanyaan, masukan, atau kekhawatiran tentang kebijakan privasi ini atau penggunaan informasi Anda, silakan hubungi kami melalui informasi kontak yang tersedia di aplikasi kami.
+\n\n
+Terima kasih telah menggunakan aplikasi servis dan jual beli Rukin Servis Elektronik. Kami berkomitmen untuk melindungi privasi Anda dan memberikan pengalaman pengguna yang aman dan bermanfaat.</string>
+</resources>

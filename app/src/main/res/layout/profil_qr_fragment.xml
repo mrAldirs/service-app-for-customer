@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnTutup"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        app:cardElevation="0dp"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="86dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/underline"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/btnBatalkan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:paddingVertical="12dp"
+        android:text="Batalkan"
+        android:textColor="@color/teal_200"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTutup"/>
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center_vertical"
+        android:text="Kode QR Toko"
+        android:layout_marginTop="12dp"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imV"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@color/zxing_custom_viewfinder_laser" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pelanggan_servis">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:name=".Helper.BaseApplication"
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:requestLegacyExternalStorage="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon_aplikasi"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pelanggan_servis"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDmcXgQN8gm5zhAnryw0ntBsORQXXsf260" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".View.Layout.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".View.Chat.ChatActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".View.Layout.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Layout.RegistrasiActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Layout.ImageDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Layout.AktifkanAkunActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Layout.RegistrasiProfilActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Profil -->
+        <activity android:name=".View.Profil.StatusAkunProfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.PengaturanProfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.EmailProfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.UsernameProfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.PrivasiProfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.LayananProfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.PaymentTokoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.TokoProfilActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Profil.ProfilEditActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Katalog -->
+        <activity android:name=".Katalog.KatalogMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Katalog.KatalogDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Servis -->
+        <activity android:name=".View.Servis.ServisMainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".View.Servis.ServisDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Riwayat -->
+        <activity android:name=".View.Riwayat.RiwayatDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Notifikasi -->
+        <activity android:name=".View.Notifikasi.NotifikasiDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Order -->
+        <activity android:name=".View.Order.OrderMainActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Jual -->
+        <activity android:name=".View.Jual.JualMainActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Beli -->
+        <activity android:name=".Beli.BeliMainActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Feedback -->
+        <activity android:name=".View.Feedback.FeedbackMainActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Struk Pembayaran -->
+        <activity android:name=".View.Pembayaran.PembayaranStrukActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Profil -->
+        <activity android:name=".View.Mekanik.MekanikMainActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

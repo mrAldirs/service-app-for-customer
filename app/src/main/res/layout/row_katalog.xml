@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/underline"
+        app:strokeWidth="1dp">
+
+        <ImageView
+            android:id="@+id/katalogPhoto"
+            android:layout_width="120dp"
+            android:layout_height="136dp"
+            android:src="@drawable/image"
+            android:background="#B4000000"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/katalogNama"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:layout_marginHorizontal="8dp"
+                android:text="Nama Barang"/>
+
+            <TextView
+                android:id="@+id/katalogJenis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="12dp"
+                android:text="Jenis Barang"/>
+
+            <TextView
+                android:id="@+id/katalogStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textStyle="italic"
+                android:maxLines="1"
+                android:text="Status Katalog"/>
+
+            <TextView
+                android:id="@+id/katalogHarga"
+                style="@style/TextAppearance.AppCompat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/red_500"
+                android:maxLines="1"
+                android:text="Harga"/>
+
+            <TextView
+                android:id="@+id/katalogTanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="12dp"
+                android:maxLines="1"
+                android:layout_gravity="end"
+                android:text="Tanggal Upload"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="56dp"
+            android:background="@color/underline"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:id="@+id/btnDetailTransaksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginBottom="4dp"
+            android:text="Detail Barang"
+            android:backgroundTint="@color/red_200"
+            app:icon="@drawable/dollar"/>
+
+        <ImageView
+            android:id="@+id/imgSold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="8dp"
+            android:visibility="gone"
+            android:src="@drawable/sold"/>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
